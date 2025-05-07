@@ -28,3 +28,10 @@
     background-color: #000000; /* Black underline */
   }
 }
+.header {
+  top: 0;
+  position: sticky; /* Set this here instead */
+  z-index: 100;
+  height: 5rem;
+  background: gray;
+}

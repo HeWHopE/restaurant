@@ -15,6 +15,7 @@ export enum ScreenBreakpoints {
 interface useSizeHookReturn {
   width: number | undefined;
   height: number | undefined;
+  isMedium: boolean;
   isMobile: boolean;
   isSmallMobile: boolean;
 }
@@ -39,6 +40,8 @@ function useWindowSize(): useSizeHookReturn {
   return {
     width: windowSize.width,
     height: windowSize.height,
+    isMedium:
+      windowSize.width != undefined && windowSize.width < ScreenBreakpoints.xl,
     isMobile:
       windowSize.width != undefined && windowSize.width < ScreenBreakpoints.lg,
     isSmallMobile:
