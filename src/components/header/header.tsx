@@ -57,18 +57,18 @@ const Header: React.FC = () => {
   return (
     <>
       <header
-        className={`fixed left-0 top-0 z-999 flex w-full items-center justify-center text-white transition-all duration-200 h-24 ${
+        className={`fixed left-0 top-0 z-999 flex w-[100vw] items-center justify-center text-white transition-all duration-200 h-24 ${
           isMedium || isScrolled ? "bg-[#191919] !h-18" : "bg-transparent "
         } ${isMobile && "!h-40"}`}
       >
         {" "}
-        <Container>
+        <Container className="w-full">
           {/* Navigation Links (Desktop only) */}
           {!isMedium ? (
             <div className="flex items-center justify-center w-screen gap-[8rem]">
               <div
                 className={`flex items-center transition-transform duration-200 ${
-                  isScrolled ? "scale-75" : "scale-115 translate-x-10"
+                  isScrolled ? "scale-75" : "scale-115 "
                 }`}
               >
                 <img src="/logo.png" alt="logo" className="h-auto w-60" />

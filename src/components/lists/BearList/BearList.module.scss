@@ -1,0 +1,54 @@
+.title {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  &::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    position: absolute;
+    color: #000;
+    bottom: 5px;
+    margin-right: -100%;
+    border-bottom: 1px dotted;
+  }
+}
+
+.price {
+  color: #1f2937; // Gray-900 color
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.categoryTitle {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-family: "Marck Script", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-size: 40px;
+  font-weight: 600; // Try "bold" or another supported value
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 30px;
+
+    &::after {
+      width: 70%;
+    }
+  }
+}

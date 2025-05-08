@@ -9,7 +9,7 @@ const HomePage: React.FC = () => {
   return (
     <>
       {/* Hero Section */}
-      <div className="relative h-[110vh] overflow-hidden">
+      <section className="relative h-[110vh] overflow-hidden">
         <div className={styles["image-container"]}>
           <img className={styles.image} src="/01.jpg" alt="Background" />
           <div className={styles["image-overlay"]}></div>
@@ -30,7 +30,7 @@ const HomePage: React.FC = () => {
             className="hover:bg-red-500 text-red-600 hover:text-white mt-8"
           />
         </div>
-      </div>
+      </section>
 
       {/* Restaurant Menu Section */}
       <section className="bg-white py-10 text-center">

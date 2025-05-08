@@ -1,34 +1,37 @@
 import React from "react";
-import { ParallaxBanner } from "react-scroll-parallax";
-import WineList from "./components/WineList";
-import Button from "../../components/button/button";
+import { Book } from "lucide-react";
 import styles from "./MenuBar.module.scss";
+import WineList from "../../components/lists/WineList/WineList";
+import ListMenu from "../../components/lists/mainList/List";
+import ListKokteilsMenu from "../../components/lists/kokteilList/kokteilList";
+import djinsData from "../../components/menu/djin.json";
+import gorilkaData from "../../components/menu/gorilka.json";
+import likersData from "../../components/menu/likers.json";
+import kokteilsData from "../../components/menu/kokteil.json";
+import CustomParallaxBanner from "../../components/Parralax/CustomParralax";
+import useWindowSize from "../../hooks/useWindowSize";
+import HotDrinksList, {
+  type HotDrinkItem,
+} from "../../components/lists/hotDriks/HotDrinksList";
+import HotDrinksData from "../../components/menu/hotDrinks.json";
+import ListBeerMenu, {
+  type BeerItem,
+} from "../../components/lists/BearList/BearList";
+import BearData from "../../components/menu/bear.json";
+import ColdDrinksData from "../../components/menu/coldDrinks.json";
+import ColdDrinksList, {
+  type COldDrinkItem,
+} from "../../components/lists/ColdDrinks/ColdDrinks";
+
 const MenuBar: React.FC = () => {
+  const { isMobile } = useWindowSize();
   return (
-    <div>
-      {/* Parallax Banner */}
-      <ParallaxBanner
-        layers={[
-          // First background layer with `barmenutopimage.png`
-          {
-            image: "/123123.png",
-          },
-          {
-            speed: -10,
-            children: (
-              <div className="flex items-center justify-center h-full w-full">
-                <h1
-                  className="text-white text-4xl md:text-6xl font-bold w-full text-center"
-                  style={{ fontFamily: "'Marck Script', cursive" }}
-                >
-                  Прейскурант бару
-                </h1>
-              </div>
-            ),
-          },
-        ]}
-        className="h-[25rem]"
-      />{" "}
+    <>
+      <CustomParallaxBanner
+        imageUrl="/123123.png"
+        text="Прейскурант бару"
+        isMobile={isMobile}
+      />
       <div className="flex items-center justify-center h-[28rem] bg-white text-black bg-opacity-50 text-center relative">
         <div>
           <h1
@@ -38,40 +41,75 @@ const MenuBar: React.FC = () => {
             Будьмо! Гей!
           </h1>
           <p className="text-xl md:text-4xl text-black opacity-75 mb-10 -mt-6 uppercase">
-            {" "}
-            {/* Negative margin */}
             Напої на будь-який смак
           </p>
         </div>
       </div>
-      <ParallaxBanner
-        layers={[
-          // Second background layer with `vina.png`
-          { image: "/vina.png", speed: -20 },
-
-          {
-            speed: -10,
-            children: (
-              <div className="flex items-center justify-center h-full w-full">
-                <h1
-                  className="text-white text-4xl md:text-6xl font-bold w-full text-center"
-                  style={{ fontFamily: "'Marck Script', cursive" }}
-                >
-                  Вина
-                </h1>
-              </div>
-            ),
-          },
-          // Foreground text
-        ]}
-        className="h-[17rem]"
+      <CustomParallaxBanner
+        imageUrl="/vina.png"
+        text="Вина"
+        isMobile={isMobile}
       />
       <WineList />
-      <button className={styles.seasidetmsButton}>Переглянути всі вина</button>
-      <div>
-        <br />
+      <div className="w-full flex items-center justify-center">
+        <button className={styles.seasidetmsButton}>
+          <Book size={20} style={{ marginRight: "0.5em" }} />
+          Переглянути всі вина
+        </button>
       </div>
-    </div>
+      <div className="w-full my-20 border-b border-gray-300" />
+      <CustomParallaxBanner
+        isMobile={isMobile}
+        imageUrl="/djin.jpg"
+        text="Lікер, віски, ром, джин"
+      />
+      <ListMenu menuData={djinsData} />
+      <CustomParallaxBanner
+        imageUrl="/gorilka.png"
+        text="Горілка"
+        isMobile={isMobile}
+      />
+      <ListMenu menuData={gorilkaData} />
+      <CustomParallaxBanner
+        isMobile={isMobile}
+        imageUrl="/likers.png"
+        text="Лікери, настоянки, коняк"
+      />
+      <ListMenu menuData={likersData} />
+      <CustomParallaxBanner
+        imageUrl="/likers.png"
+        text="Коктейлі"
+        isMobile={isMobile}
+      />
+      <ListKokteilsMenu menuData={kokteilsData} />
+
+      <CustomParallaxBanner
+        imageUrl="/likers.png"
+        text="Коктейлі"
+        isMobile={isMobile}
+      />
+      <ListKokteilsMenu menuData={kokteilsData} />
+
+      <CustomParallaxBanner
+        imageUrl="/hotdrinks.jpg"
+        text="Гарячі напої"
+        isMobile={isMobile}
+      />
+      <HotDrinksList drinksData={HotDrinksData as unknown as HotDrinkItem[]} />
+
+      <CustomParallaxBanner
+        imageUrl="/bear.png"
+        text="Пиво"
+        isMobile={isMobile}
+      />
+      <ListBeerMenu beerData={BearData as unknown as BeerItem[]} />
+      <CustomParallaxBanner
+        isMobile={isMobile}
+        imageUrl="/likers.png"
+        text="Охолоджені напої"
+      />
+      <ColdDrinksList beerData={ColdDrinksData as unknown as COldDrinkItem[]} />
+    </>
   );
 };
 

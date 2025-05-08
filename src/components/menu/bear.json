@@ -1,0 +1,26 @@
+[
+  {
+    "name": "“Львівське”",
+    "english": "Lvivske",
+    "volume": { "300ml": "₴90.00", "500ml": "₴100.00" },
+    "price": "₴100.00"
+  },
+  {
+    "name": "“Корона”",
+    "english": "Corona",
+    "volume": { "330ml": "₴150.00" },
+    "price": "₴150.00"
+  },
+  {
+    "name": "Пиво безалкогольне",
+    "english": "Non-Alcoholic Beer",
+    "volume": { "500ml": "₴90.00" },
+    "price": "₴90.00"
+  },
+
+  {
+    "name": "Фісташки",
+    "english": "Pistachios",
+    "price": "₴120.00"
+  }
+]

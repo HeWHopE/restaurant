@@ -1,6 +1,7 @@
 .seasidetmsButton {
   position: relative;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
   padding: 10px 20px;
   background-color: #e74c3c;
   color: white;
@@ -8,14 +9,6 @@
   font-weight: bold;
   border: none;
   cursor: pointer;
-}
-
-.seasidetmsButton:before {
-  content: "\e84b"; /* Unicode for the book icon */
-  font-family: "fontello"; /* Make sure "fontello" font is imported */
-  font-size: 1.2em;
-  margin-right: 0.5em;
-  vertical-align: middle;
 }
 
 .seasidetmsButton:hover {

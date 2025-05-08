@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Редейбл",
+    "size": "1",
+    "bottlePrice": "₴2400,00",
+    "description": "Red Label Whiskey",
+    "glassPrices": { "50 мл": "₴120,00", "100 мл": "₴240,00" }
+  },
+  {
+    "name": "Балантайнс",
+    "size": "1",
+    "bottlePrice": "₴3200,00",
+    "description": "Ballantine's Whiskey",
+    "glassPrices": { "50 мл": "₴160,00", "100 мл": "₴320,00" }
+  },
+  {
+    "name": "Джек Деніалс",
+    "size": "1",
+    "bottlePrice": "₴3200,00",
+    "description": "Jack Daniel's Whiskey",
+    "glassPrices": { "50 мл": "₴160,00", "100 мл": "₴320,00" }
+  },
+  {
+    "name": "Джеймісон",
+    "size": "1",
+    "bottlePrice": "₴3000,00",
+    "description": "Jameson Whiskey",
+    "glassPrices": { "50 мл": "₴150,00", "100 мл": "₴300,00" }
+  },
+  {
+    "name": "Чівас Рігал",
+    "size": "1",
+    "bottlePrice": "₴4200,00",
+    "description": "Chivas Regal Whiskey",
+    "glassPrices": { "50 мл": "₴210,00", "100 мл": "₴420,00" }
+  },
+  {
+    "name": "Біфітер",
+    "size": "1",
+    "bottlePrice": "₴2400,00",
+    "description": "Beefeater Gin",
+    "glassPrices": { "50 мл": "₴120,00", "100 мл": "₴240,00" }
+  },
+  {
+    "name": "Гордонс",
+    "size": "1",
+    "bottlePrice": "₴2400,00",
+    "description": "Gordon's Gin",
+    "glassPrices": { "50 мл": "₴120,00", "100 мл": "₴240,00" }
+  },
+  {
+    "name": "Бакарді Білий",
+    "size": "1",
+    "bottlePrice": "₴2000,00",
+    "description": "Bacardi White Rum",
+    "glassPrices": { "50 мл": "₴100,00", "100 мл": "₴200,00" }
+  },
+  {
+    "name": "Бакарді Чорний",
+    "size": "1",
+    "bottlePrice": "₴2400,00",
+    "description": "Bacardi Black Rum",
+    "glassPrices": { "50 мл": "₴120,00", "100 мл": "₴240,00" }
+  },
+  {
+    "name": "Гренадін",
+    "size": "1",
+    "bottlePrice": "₴600,00",
+    "description": "Grenadine",
+    "glassPrices": { "50 мл": "₴30,00", "100 мл": "₴60,00" }
+  },
+  {
+    "name": "Мартіні",
+    "size": "1",
+    "bottlePrice": "₴900,00",
+    "description": "Martini",
+    "glassPrices": { "50 мл": "₴45,00", "100 мл": "₴90,00" }
+  },
+  {
+    "name": "Курасао",
+    "size": "1",
+    "bottlePrice": "₴1200,00",
+    "description": "Curacao",
+    "glassPrices": { "50 мл": "₴60,00", "100 мл": "₴120,00" }
+  },
+  {
+    "name": "Бейліз",
+    "size": "1",
+    "bottlePrice": "₴2000,00",
+    "description": "Baileys",
+    "glassPrices": { "50 мл": "₴100,00", "100 мл": "₴200,00" }
+  },
+  {
+    "name": "Кампарі",
+    "size": "1",
+    "bottlePrice": "₴1400,00",
+    "description": "Campari",
+    "glassPrices": { "50 мл": "₴70,00", "100 мл": "₴140,00" }
+  },
+  {
+    "name": "Малібу",
+    "size": "1",
+    "bottlePrice": "₴1400,00",
+    "description": "Malibu",
+    "glassPrices": { "50 мл": "₴70,00", "100 мл": "₴140,00" }
+  },
+  {
+    "name": "Калуа",
+    "size": "1",
+    "bottlePrice": "₴1800,00",
+    "description": "Kahlúa",
+    "glassPrices": { "50 мл": "₴90,00", "100 мл": "₴180,00" }
+  },
+  {
+    "name": "Куантро",
+    "size": "1",
+    "bottlePrice": "₴2400,00",
+    "description": "Cointreau",
+    "glassPrices": { "50 мл": "₴120,00", "100 мл": "₴240,00" }
+  }
+]

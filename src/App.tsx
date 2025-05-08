@@ -10,17 +10,16 @@ const App: React.FC = () => {
   return (
     <Router>
       <Header />
-      <div className="content">
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/menu-bar" element={<MenuBar />} />
-          {/* 
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/menu-bar" element={<MenuBar />} />
+        {/* 
            <Route path="/poslygi" element={<ServicesPage />} />
            <Route path="/dostavka" element={<DeliveryPage />} />
            <Route path="/keyteryng" element={<CateringPage />} />
           <Route path="/contacts" element={<ContactsPage />} />  */}
-        </Routes>
-      </div>
+      </Routes>
+
       <Footer />
     </Router>
   );

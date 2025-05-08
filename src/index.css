@@ -1,16 +1,31 @@
 @import "tailwindcss";
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Marck+Script:wght@400;900&display=swap");
 
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-synthesis: none;
+* {
+  box-sizing: border-box;
 }
 
-body {
-  position: relative; /* Create a positioning context for absolute positioning */
+:root {
+  font-family: "Cormorant Garamond", Arial, sans-serif;
+}
 
-  font-family:
-    "Cormorant Garamond", Arial, Helvetica, "Nimbus Sans L", sans-serif !important;
-  min-height: 100vh;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+}
+
+h1.custom-title {
+  font-family: "Marck Script", cursive;
+  font-size: 2.5rem;
+  color: white;
 }
