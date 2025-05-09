@@ -101,7 +101,7 @@ const Header: React.FC = () => {
                       >
                         <ul className="flex flex-col rounded-lg ">
                           <li className="px-4 py-2 hover:text-amber-300 ">
-                            <Link to="/menu">Menu Bar</Link>
+                            <Link to="/menu">Menu</Link>
                           </li>
                           <li className="px-4 py-2  rounded-lg hover:text-amber-300">
                             <Link to="/preskurant">Preskurant</Link>
