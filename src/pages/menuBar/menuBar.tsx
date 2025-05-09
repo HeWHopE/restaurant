@@ -57,43 +57,37 @@ const MenuBar: React.FC = () => {
       <MenuButton />
       <CustomParallaxBanner
         isMobile={isMobile}
-        imageUrl="/djin.jpg"
+        imageUrl="/bar/djin.jpg"
         text="Lікер, віски, ром, джин"
       />
       <ListBarMenu menuData={djinsData} /> <MenuButton />
       <CustomParallaxBanner
-        imageUrl="/gorilka.png"
+        imageUrl="/bar/gorilka.png"
         text="Горілка"
         isMobile={isMobile}
       />
       <ListBarMenu menuData={gorilkaData} /> <MenuButton />
       <CustomParallaxBanner
         isMobile={isMobile}
-        imageUrl="/likers.png"
+        imageUrl="/bar/likers.png"
         text="Лікери, настоянки, коняк"
       />
       <ListBarMenu menuData={likersData} /> <MenuButton />
       <CustomParallaxBanner
-        imageUrl="/kokteli.png"
-        text="Коктейлі"
-        isMobile={isMobile}
-      />
-      <ListKokteilsMenu menuData={kokteilsData} />
-      <CustomParallaxBanner
-        imageUrl="/likers.png"
+        imageUrl="/bar/kokteli.png"
         text="Коктейлі"
         isMobile={isMobile}
       />
       <ListKokteilsMenu menuData={kokteilsData} /> <MenuButton />
       <CustomParallaxBanner
-        imageUrl="/hotdrinks.jpg"
+        imageUrl="/bar/hotdrinks.jpg"
         text="Гарячі напої"
         isMobile={isMobile}
       />
       <HotDrinksList drinksData={HotDrinksData as unknown as HotDrinkItem[]} />{" "}
       <MenuButton />
       <CustomParallaxBanner
-        imageUrl="/bear.png"
+        imageUrl="/bar/bear.png"
         text="Пиво"
         isMobile={isMobile}
       />
@@ -101,7 +95,7 @@ const MenuBar: React.FC = () => {
       <MenuButton />
       <CustomParallaxBanner
         isMobile={isMobile}
-        imageUrl="/likers.png"
+        imageUrl="/bar/likers.png"
         text="Охолоджені напої"
       />
       <ColdDrinksList beerData={ColdDrinksData as unknown as COldDrinkItem[]} />

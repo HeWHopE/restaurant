@@ -5,11 +5,15 @@ const ScrollToTop = () => {
   const location = useLocation();
 
   useEffect(() => {
-    // Scroll to top when route changes
-    window.scrollTo(0, 0);
-  }, [location]); // Re-run when location (page) changes
+    // Check if custom scroll behavior is required
+    const isCustomScroll = localStorage.getItem("selectedMenuItem");
 
-  return null; // This component doesn't render anything
+    if (!isCustomScroll || isCustomScroll === "1") {
+      window.scrollTo(0, 0); // Only scroll to top if no custom scroll logic
+    }
+  }, [location.pathname]); // Trigger only when the pathname changes
+
+  return null;
 };
 
 export default ScrollToTop;

@@ -5,7 +5,6 @@ import HomePage from "./pages/HomePage/HomePage";
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
 import MenuBar from "./pages/menuBar/menuBar";
-import ReservationForm from "./components/reservForm.tsx/reservForm";
 import { ToastContainer } from "react-toastify";
 import Menu from "./pages/Menu/MenuPage";
 import Bankets from "./pages/BanketsPage/Bankets";

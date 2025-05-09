@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useRef } from "react";
 import styles from "./HomePage.module.scss";
 import Button from "../../components/button/button";
-import useWindowSize from "../../hooks/useWindowSize";
 import ReservationForm from "../../components/reservForm.tsx/reservForm";
+import { useNavigate } from "react-router-dom";
 
 const HomePage: React.FC = () => {
-  const { isMobile, isMedium } = useWindowSize();
+  const reservRef = useRef<HTMLFormElement>(null);
+  const navigate = useNavigate();
+
   return (
     <>
       {/* Hero Section */}
@@ -28,6 +30,11 @@ const HomePage: React.FC = () => {
           <Button
             text="Резервувати стіл"
             className="hover:bg-red-500 text-red-600 hover:text-white mt-8"
+            onClick={() => {
+              if (reservRef.current) {
+                reservRef.current.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
           />
         </div>
       </section>
@@ -35,42 +42,37 @@ const HomePage: React.FC = () => {
       {/* Restaurant Menu Section */}
       <section className="bg-white py-10 text-center">
         <h2 className="text-5xl font-bold my-19">МЕНЮ РЕСТОРАНУ</h2>
-        <div className={`flex flex-wrap gap-6 justify-center ${!isMedium}`}>
+        <div className="flex flex-wrap gap-6 justify-center ">
           {[
-            {
-              text: "СНІДАНОК",
-              src: "/breakfast.jpg",
-              link: "/breakfast-menu",
-            },
-            {
-              text: "ГОЛОВНІ СТРАВИ",
-              src: "/breakfast.jpg",
-              link: "/lunch-menu",
-            },
-            {
-              text: "БЕНКЕТИ",
-              src: "/breakfast.jpg",
-              link: "/dinner-menu",
-            },
-            {
-              text: "ПРЕЙСКУРАНТ БАРУ",
-              src: "/breakfast.jpg",
-              link: "/desserts-menu",
-            },
+            { text: "ДЕСЕРТИ", src: "/deserts.jpg", id: "desert" },
+            { text: "ГОЛОВНІ СТРАВИ", src: "/main.jpg", id: "main" },
+            { text: "БЕНКЕТИ", src: "/golovni.png", id: "banket" },
+            { text: "ПРЕЙСКУРАНТ БАРУ", src: "/bar.jpg", id: "bar" },
           ].map((item, index) => (
             <div
               key={index}
-              className="relative flex items-center justify-center max-w-[90vw] sm:max-w-[688px]  sm:max-h-[330px]  lg:max-w-[461px] lg:max-h-[411px] xl:max-w-[560px] xl:max-h-[410px] overflow-hidden"
+              className="relative flex items-center justify-center w-[90vw] sm:w-[688px] sm:  h-[350px] lg:max-w-[461px] lg:max-h-[411px] xl:max-w-[560px] xl:max-h-[410px] overflow-hidden"
             >
               <img
-                className="w-full h-full object-cover shadow-lg"
+                className="w-full h-full object-cover shadow-lg "
                 src={item.src}
                 alt={item.text}
               />
               <Button
+                className="absolute text-2xl top-1/2 left-1/2 transform -translate-x-1/2 curso -translate-y-1/2 py-2 px-4 bg-white text-black hover:bg-[#c7a254] hover:text-white"
+                onClick={() => {
+                  if (item.id === "bar") {
+                    // Redirect directly for the "PREISKURANT BAR"
+                    navigate("/preskurant");
+                  } else if (item.id === "banket") {
+                    // Save the menu item ID to localStorage and redirect to /menu
+                    navigate("/bankety");
+                  } else {
+                    localStorage.setItem("selectedMenuItem", item.id);
+                    navigate("/menu");
+                  }
+                }}
                 text={item.text}
-                className="absolute text-2xl   top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 py-2 px-4 text-black hover:bg-[#c7a254] hover:text-white"
-                onClick={() => (window.location.href = item.link)}
               />
             </div>
           ))}
@@ -121,7 +123,7 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
-      <ReservationForm />
+      <ReservationForm ref={reservRef} />
     </>
   );
 };

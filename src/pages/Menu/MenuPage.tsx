@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import styles from "./MenuPage.module.scss";
 import CustomParallaxBanner from "../../components/Parralax/CustomParralax";
 import useWindowSize from "../../hooks/useWindowSize";
@@ -35,6 +35,35 @@ import ReservationForm from "../../components/reservForm.tsx/reservForm";
 
 const Menu: React.FC = () => {
   const { isMobile } = useWindowSize();
+
+  const desertsRef = useRef<HTMLDivElement>(null);
+  const mainDishRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    // Get the selected menu item from localStorage
+    const selectedItem = localStorage.getItem("selectedMenuItem");
+
+    if (selectedItem) {
+      console.log(selectedItem);
+      // Define the mapping of menu items to refs
+      const sectionRef = {
+        desert: desertsRef,
+        main: mainDishRef,
+      }[selectedItem];
+
+      if (sectionRef?.current) {
+        console.log(sectionRef?.current);
+        // Scroll to the corresponding section
+        sectionRef.current.scrollIntoView({ behavior: "smooth" });
+      } else {
+        console.warn("Invalid menu item:", selectedItem);
+      }
+
+      // Clear localStorage after use
+      localStorage.setItem("selectedMenuItem", "1");
+    }
+  }, []);
+
   return (
     <>
       {" "}
@@ -57,8 +86,9 @@ const Menu: React.FC = () => {
           </p>
         </div>
       </div>{" "}
+      <div ref={mainDishRef}></div>
       <CustomParallaxBanner
-        imageUrl="/toplogo.png"
+        imageUrl="/menu/borshch.jpg"
         text="Головні страви"
         isMobile={isMobile}
       />{" "}
@@ -162,7 +192,7 @@ const Menu: React.FC = () => {
       <h2 className="flex items-center justify-center">
         <p className={styles.categoryTitle}>Гарячі Страви</p>
       </h2>{" "}
-      <ListMenu menuData={fursetHotDishes} />{" "}
+      <ListMenu menuData={fursetHotDishes} /> <div ref={desertsRef}></div>
       <CustomParallaxBanner
         imageUrl="/toplogo.png"
         text="Десерти"
