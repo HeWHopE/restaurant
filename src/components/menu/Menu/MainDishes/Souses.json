@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Соус червоний гострий",
+    "portionPrice": "60,00",
+    "portions": "50",
+    "description": "гострий червоний соус"
+  },
+  {
+    "name": "Соус білий “Татарський”",
+    "portionPrice": "65,00",
+    "portions": "50",
+    "description": "білий соус татарський"
+  },
+  {
+    "name": "Соус “Барбекю”",
+    "portionPrice": "60,00",
+    "portions": "50",
+    "description": "соус барбекю"
+  },
+  {
+    "name": "Кетчуп",
+    "portionPrice": "50,00",
+    "portions": "50",
+    "description": "кетчуп"
+  },
+  {
+    "name": "Сметана",
+    "portionPrice": "40,00",
+    "portions": "50",
+    "description": "сметана"
+  },
+  {
+    "name": "Майонез",
+    "portionPrice": "40,00",
+    "portions": "50",
+    "description": "майонез"
+  },
+  {
+    "name": "Хрін / Гірчиця",
+    "portionPrice": "30,00",
+    "portions": "30",
+    "description": "хрін або гірчиця"
+  },
+  {
+    "name": "Аджика домашня",
+    "portionPrice": "50,00",
+    "portions": "50",
+    "description": "домашня аджика"
+  },
+  {
+    "name": "Соус Наршараб",
+    "portionPrice": "70,00",
+    "portions": "50",
+    "description": "соус Наршараб"
+  }
+]

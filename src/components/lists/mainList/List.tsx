@@ -17,7 +17,7 @@ interface ListMenuProps {
   menuData: MenuItem[];
 }
 
-const ListMenu: React.FC<ListMenuProps> = ({ menuData }) => {
+const ListBarMenu: React.FC<ListMenuProps> = ({ menuData }) => {
   return (
     <div className="flex flex-col items-center gap-10 justify-center w-full mt-8 font-sans">
       <ul className="font-[400] w-[80%] sm:w-[70%] xl:w-[80%]">
@@ -44,4 +44,4 @@ const ListMenu: React.FC<ListMenuProps> = ({ menuData }) => {
   );
 };
 
-export default ListMenu;
+export default ListBarMenu;

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Шашличок з лосося",
+    "description": "Salmon shashlik",
+    "portionPrice": "1050,00",
+    "portions": "320/45/50"
+  },
+  {
+    "name": "Філе судака в кунжуті",
+    "description": "Pike-perch fillet in sesame",
+    "portionPrice": "375,00",
+    "portions": "170/10"
+  },
+  {
+    "name": "Короп смажений в сметані",
+    "description": "Fried carp in sour cream",
+    "portionPrice": "125,00",
+    "portions": "100"
+  },
+  {
+    "name": "Рулетики із сібаса в апельсиново-гірчичному соусі",
+    "description": "Sea bass roulades in orange-mustard sauce",
+    "portionPrice": "650,00",
+    "portions": "190/50/30"
+  }
+]

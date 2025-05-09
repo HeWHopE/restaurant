@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Кава натуральна",
+    "english": "Natural Coffee",
+    "price": "₴75.0",
+    "volume": "ml"
+  },
+  {
+    "name": "Кава “Амерікано”",
+    "english": "Americano Coffee",
+    "price": "₴80.0",
+    "volume": "ml"
+  },
+  {
+    "name": "Капучіно натуральне",
+    "english": "Natural Cappuccino",
+    "price": "₴85.0",
+    "volume": "ml"
+  },
+  {
+    "name": "Лате",
+    "english": "Latte",
+    "price": "₴90.0",
+    "volume": "ml"
+  },
+  {
+    "name": "Какао",
+    "english": "Cocoa",
+    "price": "₴65.0",
+    "volume": "ml"
+  },
+  {
+    "name": "Імбирний чай",
+    "english": "Ginger Tea",
+    "price": "₴130.0",
+    "volume": "500ml"
+  },
+  {
+    "name": "Вершки порційно",
+    "english": "Cream (Portion)",
+    "price": "₴30.0",
+    "volume": "ml"
+  },
+  {
+    "name": "Мед порційно",
+    "english": "Honey (Portion)",
+    "price": "₴50.0",
+    "volume": "ml"
+  },
+  {
+    "name": "Молоко",
+    "english": "Milk",
+    "price": "₴20.0",
+    "volume": "50ml"
+  },
+  {
+    "name": "Топінг",
+    "english": "Topping",
+    "price": "₴25.0",
+    "volume": "10ml"
+  },
+  {
+    "name": "Свіжа мята",
+    "english": "Fresh Mint",
+    "price": "₴30.0",
+    "volume": "20g"
+  }
+]

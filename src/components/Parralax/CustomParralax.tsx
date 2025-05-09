@@ -19,7 +19,6 @@ const CustomParallaxBanner: React.FC<ParallaxBannerProps> = ({
           layers={[
             {
               image: imageUrl,
-              speed: -20, // Add `speed` for consistent behavior
             },
             {
               speed: -10,

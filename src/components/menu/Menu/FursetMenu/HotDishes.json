@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Шашличок зі свинини",
+    "description": "",
+    "portionPrice": "350,00",
+    "portions": "200"
+  },
+  {
+    "name": "Шашличок з телятини",
+    "description": "",
+    "portionPrice": "450,00",
+    "portions": "200"
+  },
+  {
+    "name": "Шашличок з курочки",
+    "description": "",
+    "portionPrice": "275,00",
+    "portions": "200"
+  },
+  {
+    "name": "Шашличок з сьомги",
+    "description": "",
+    "portionPrice": "740,00",
+    "portions": "230"
+  },
+  {
+    "name": "Шашличок з судака",
+    "description": "",
+    "portionPrice": "395,00",
+    "portions": "220"
+  },
+  {
+    "name": "Картопля запечена з беконом",
+    "description": "",
+    "portionPrice": "280,00",
+    "portions": "500"
+  },
+  {
+    "name": "Печінка куряча в беконі",
+    "description": "",
+    "portionPrice": "225,00",
+    "portions": "200"
+  },
+  {
+    "name": "Бочечки із цукіні з шинкою і грибами",
+    "description": "",
+    "portionPrice": "295,00",
+    "portions": "260"
+  },
+  {
+    "name": "Бочечки із баклажанів з овочами і грибами",
+    "description": "",
+    "portionPrice": "310,00",
+    "portions": "280"
+  },
+  {
+    "name": "“Київськи каштани”",
+    "description": "",
+    "portionPrice": "235,00",
+    "portions": "200"
+  },
+  {
+    "name": "Сир фрі з соусом Тар-Тар",
+    "description": "",
+    "portionPrice": "195,00",
+    "portions": "100/150"
+  },
+  {
+    "name": "Овочевий шашличок",
+    "description": "помідор, огірок, редис, перець болгарський, салат зелений",
+    "portionPrice": "245,00",
+    "portions": "300"
+  },
+  {
+    "name": "Шпажки з сиром і виноградом",
+    "description": "сири: Дуплет, Рамзес, Радомир, Камамбер, виноград, м’ята",
+    "portionPrice": "460,00",
+    "portions": "300"
+  },
+  {
+    "name": "Шпажки з моцарелою, Черрі і базіліком",
+    "description": "",
+    "portionPrice": "310,00",
+    "portions": "180"
+  },
+  {
+    "name": "Шпажки з шинкою, огірком і зеленим салатом",
+    "description": "",
+    "portionPrice": "225,00",
+    "portions": "220"
+  },
+  {
+    "name": "Шпажки з баликом, Черрі і базиліком",
+    "description": "",
+    "portionPrice": "315,00",
+    "portions": "180"
+  },
+  {
+    "name": "Шпажки з шинки, перепелиних яєць, Черрі і твердого сиру",
+    "description": "",
+    "portionPrice": "375,00",
+    "portions": "350"
+  },
+  {
+    "name": "Канапе з салом і корнішоном на Бородинському хлібі з гірчицею",
+    "description": "",
+    "portionPrice": "245,00",
+    "portions": "300"
+  },
+  {
+    "name": "Канапе з печінковим паштетом, вершковим маслом та зеленню",
+    "description": "",
+    "portionPrice": "360,00",
+    "portions": "270"
+  },
+  {
+    "name": "Канапе з ковбасою с/к, твердим сиром і свіжим огірком",
+    "description": "",
+    "portionPrice": "360,00",
+    "portions": "270"
+  },
+  {
+    "name": "Канапе з курячим рулетом, помідорами, зеленню і хріном",
+    "description": "",
+    "portionPrice": "295,00",
+    "portions": "320"
+  },
+  {
+    "name": "Канапе з вудженою, гірчицею і свіжим огірком",
+    "description": "",
+    "portionPrice": "350,00",
+    "portions": "300"
+  },
+  {
+    "name": "Канапе з сьомгою с/с, вершковим маслом, маслинами, лимоном та зеленню",
+    "description": "",
+    "portionPrice": "545,00",
+    "portions": "280"
+  },
+  {
+    "name": "Млинці з сьомгою, сиром та зеленню",
+    "description": "",
+    "portionPrice": "440,00",
+    "portions": "230"
+  }
+]

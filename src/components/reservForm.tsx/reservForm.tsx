@@ -3,6 +3,7 @@ import { useForm, type SubmitHandler } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import emailjs from "emailjs-com";
+import { toast } from "react-toastify";
 
 const schema = yup.object({
   name: yup.string().required("Ваше Ім'я є обов'язковим"),
@@ -54,15 +55,17 @@ export const ReservationForm: React.FC = () => {
         "tE13dfmPRhzhec7Vd"
       );
       reset();
+      toast.success("Резервація успішно надіслана");
     } catch (error) {
       console.error("Помилка надсилання:", error);
+      toast.error("Помилка надсилання");
     }
   };
 
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="max-w-md mx-auto bg-white shadow-lg p-6 rounded-lg space-y-4 mb-30"
+      className="max-w-md mx-auto bg-white shadow-lg p-6 rounded-lg space-y-4 mb-30 mt-20"
     >
       <h2 className="text-2xl font-bold text-center">Забронювати столик</h2>
 

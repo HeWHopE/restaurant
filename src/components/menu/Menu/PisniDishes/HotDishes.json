@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Печеня з грибами",
+    "description": "",
+    "portionPrice": "270,00",
+    "portions": "300"
+  },
+  {
+    "name": "Овочі-мікс на грилі",
+    "description": "",
+    "portionPrice": "260,00",
+    "portions": "250"
+  },
+  {
+    "name": "Картопля смажена з печерицями та цибулею",
+    "description": "",
+    "portionPrice": "220,00",
+    "portions": "200"
+  }
+]

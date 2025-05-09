@@ -16,7 +16,7 @@ const HomePage: React.FC = () => {
         </div>
         <div className="absolute inset-0 bg-transparent bg-opacity-50 flex flex-col justify-center items-center text-white">
           <h1
-            className="text-2xl md:text-7xl font-bold mb-6 text-center"
+            className="text-4xl md:text-7xl font-bold mb-6 text-center"
             style={{ fontFamily: "'Marck Script', cursive" }}
           >
             Ласкаво просимо!

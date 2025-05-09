@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Сет шашликів (свинина, телятина, курка)",
+    "portionPrice": "1900,00",
+    "portions": "1000/310",
+    "description": "свинина, телятина, курка"
+  },
+  {
+    "name": "Сет курячий (крильця, стегно, філе)",
+    "portionPrice": "910,00",
+    "portions": "1000/310",
+    "description": "курячі крильця, стегно, філе"
+  },
+  {
+    "name": "Люля-кебаб асорті (телятина, свинина)",
+    "portionPrice": "340,00",
+    "portions": "200/75",
+    "description": "телятина, свинина"
+  },
+  {
+    "name": "Люля-кебаб курячий",
+    "portionPrice": "250,00",
+    "portions": "200/15/50",
+    "description": "курка"
+  },
+  {
+    "name": "Шашлик з телятини",
+    "portionPrice": "190,00",
+    "portions": "100",
+    "description": "телятина"
+  },
+  {
+    "name": "Шашлик зі свинини (ошийок)",
+    "portionPrice": "160,00",
+    "portions": "100",
+    "description": "свинина (ошийок)"
+  },
+  {
+    "name": "Свинні реберця на мангалі",
+    "portionPrice": "145,00",
+    "portions": "100",
+    "description": "свинячі ребра"
+  },
+  {
+    "name": "Шашлик з курячого філе",
+    "portionPrice": "120,00",
+    "portions": "100",
+    "description": "куряче філе"
+  },
+  {
+    "name": "Курячі крильця на мангалі",
+    "portionPrice": "95,00",
+    "portions": "100",
+    "description": "курячі крильця"
+  },
+  {
+    "name": "Шашлик з сьомги",
+    "portionPrice": "310,00",
+    "portions": "100",
+    "description": "сьомга"
+  },
+  {
+    "name": "Шашлик із сома",
+    "portionPrice": "170,00",
+    "portions": "100",
+    "description": "сом"
+  },
+  {
+    "name": "Форель річкова",
+    "portionPrice": "100,00",
+    "portions": "100",
+    "description": "форель"
+  },
+  {
+    "name": "Скумбрія гриль",
+    "portionPrice": "95,00",
+    "portions": "100",
+    "description": "скумбрія"
+  },
+  {
+    "name": "Картопля печена на мангалі з підчеревиною",
+    "portionPrice": "280,00",
+    "portions": "500",
+    "description": "картопля з підчеревиною"
+  },
+  {
+    "name": "Шашлик з овочів: перець / помідори / печериці",
+    "portionPrice": "95,00",
+    "portions": "100",
+    "description": "овочі (перець, помідори, печериці)"
+  },
+  {
+    "name": "Гарячий лаваш на мангалі",
+    "portionPrice": "80,00",
+    "portions": "порція",
+    "description": "лаваш на мангалі"
+  }
+]

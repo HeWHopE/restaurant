@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./WineList.module.scss";
 // Import your JSON data (or fetch it from an API if needed)
-import winesData from "../../../components/menu/vines.json";
+import winesData from "../../../components/menu/BarMenu/vines.json";
 
 const WineList: React.FC = () => {
   return (

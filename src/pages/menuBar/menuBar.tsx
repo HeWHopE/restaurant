@@ -2,33 +2,36 @@ import React from "react";
 import { Book } from "lucide-react";
 import styles from "./MenuBar.module.scss";
 import WineList from "../../components/lists/WineList/WineList";
-import ListMenu from "../../components/lists/mainList/List";
+import ListBarMenu from "../../components/lists/mainList/List";
 import ListKokteilsMenu from "../../components/lists/kokteilList/kokteilList";
-import djinsData from "../../components/menu/djin.json";
-import gorilkaData from "../../components/menu/gorilka.json";
-import likersData from "../../components/menu/likers.json";
-import kokteilsData from "../../components/menu/kokteil.json";
+import djinsData from "../../components/menu/BarMenu/djin.json";
+import gorilkaData from "../../components/menu/BarMenu/gorilka.json";
+import likersData from "../../components/menu/BarMenu/likers.json";
+import kokteilsData from "../../components/menu/BarMenu/kokteil.json";
 import CustomParallaxBanner from "../../components/Parralax/CustomParralax";
 import useWindowSize from "../../hooks/useWindowSize";
 import HotDrinksList, {
   type HotDrinkItem,
 } from "../../components/lists/hotDriks/HotDrinksList";
-import HotDrinksData from "../../components/menu/hotDrinks.json";
+import HotDrinksData from "../../components/menu/BarMenu/hotDrinks.json";
 import ListBeerMenu, {
   type BeerItem,
 } from "../../components/lists/BearList/BearList";
-import BearData from "../../components/menu/bear.json";
-import ColdDrinksData from "../../components/menu/coldDrinks.json";
+import BearData from "../../components/menu/BarMenu/bear.json";
+import ColdDrinksData from "../../components/menu/BarMenu/coldDrinks.json";
 import ColdDrinksList, {
   type COldDrinkItem,
 } from "../../components/lists/ColdDrinks/ColdDrinks";
+import MenuButton from "../../components/menuButton/menuButton";
+import ReservationForm from "../../components/reservForm.tsx/reservForm";
 
 const MenuBar: React.FC = () => {
   const { isMobile } = useWindowSize();
   return (
     <>
+      {isMobile && <div className="w-full my-15 border-b " />}
       <CustomParallaxBanner
-        imageUrl="/123123.png"
+        imageUrl="/toplogo.png"
         text="Прейскурант бару"
         isMobile={isMobile}
       />
@@ -46,69 +49,63 @@ const MenuBar: React.FC = () => {
         </div>
       </div>
       <CustomParallaxBanner
-        imageUrl="/vina.png"
+        imageUrl="/bar/vina.png"
         text="Вина"
         isMobile={isMobile}
       />
       <WineList />
-      <div className="w-full flex items-center justify-center">
-        <button className={styles.seasidetmsButton}>
-          <Book size={20} style={{ marginRight: "0.5em" }} />
-          Переглянути всі вина
-        </button>
-      </div>
-      <div className="w-full my-20 border-b border-gray-300" />
+      <MenuButton />
       <CustomParallaxBanner
         isMobile={isMobile}
         imageUrl="/djin.jpg"
         text="Lікер, віски, ром, джин"
       />
-      <ListMenu menuData={djinsData} />
+      <ListBarMenu menuData={djinsData} /> <MenuButton />
       <CustomParallaxBanner
         imageUrl="/gorilka.png"
         text="Горілка"
         isMobile={isMobile}
       />
-      <ListMenu menuData={gorilkaData} />
+      <ListBarMenu menuData={gorilkaData} /> <MenuButton />
       <CustomParallaxBanner
         isMobile={isMobile}
         imageUrl="/likers.png"
         text="Лікери, настоянки, коняк"
       />
-      <ListMenu menuData={likersData} />
+      <ListBarMenu menuData={likersData} /> <MenuButton />
+      <CustomParallaxBanner
+        imageUrl="/kokteli.png"
+        text="Коктейлі"
+        isMobile={isMobile}
+      />
+      <ListKokteilsMenu menuData={kokteilsData} />
       <CustomParallaxBanner
         imageUrl="/likers.png"
         text="Коктейлі"
         isMobile={isMobile}
       />
-      <ListKokteilsMenu menuData={kokteilsData} />
-
-      <CustomParallaxBanner
-        imageUrl="/likers.png"
-        text="Коктейлі"
-        isMobile={isMobile}
-      />
-      <ListKokteilsMenu menuData={kokteilsData} />
-
+      <ListKokteilsMenu menuData={kokteilsData} /> <MenuButton />
       <CustomParallaxBanner
         imageUrl="/hotdrinks.jpg"
         text="Гарячі напої"
         isMobile={isMobile}
       />
-      <HotDrinksList drinksData={HotDrinksData as unknown as HotDrinkItem[]} />
-
+      <HotDrinksList drinksData={HotDrinksData as unknown as HotDrinkItem[]} />{" "}
+      <MenuButton />
       <CustomParallaxBanner
         imageUrl="/bear.png"
         text="Пиво"
         isMobile={isMobile}
       />
-      <ListBeerMenu beerData={BearData as unknown as BeerItem[]} />
+      <ListBeerMenu beerData={BearData as unknown as BeerItem[]} />{" "}
+      <MenuButton />
       <CustomParallaxBanner
         isMobile={isMobile}
         imageUrl="/likers.png"
         text="Охолоджені напої"
       />
       <ColdDrinksList beerData={ColdDrinksData as unknown as COldDrinkItem[]} />
+      <ReservationForm />
     </>
   );
 };

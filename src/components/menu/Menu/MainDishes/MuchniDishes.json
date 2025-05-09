@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Вареники з м’ясом",
+    "portionPrice": "180,00",
+    "portions": "200/30"
+  },
+  {
+    "name": "Вареники з лівером",
+    "portionPrice": "170,00",
+    "portions": "200/30"
+  },
+  {
+    "name": "Вареники з картоплею та шкварками",
+    "portionPrice": "170,00",
+    "portions": "200/30"
+  },
+  {
+    "name": "Вареники з квашеною капустою",
+    "portionPrice": "170,00",
+    "portions": "200/30"
+  },
+  {
+    "name": "Вареники з вишнями",
+    "portionPrice": "210,00",
+    "portions": "200/50"
+  },
+  {
+    "name": "Пельмені",
+    "portionPrice": "170,00",
+    "portions": "200/30"
+  },
+  {
+    "name": "Хачапурі з сиром",
+    "portionPrice": "285,00",
+    "portions": "350"
+  },
+  {
+    "name": "Хачапурі з м’ясом та сиром",
+    "portionPrice": "310,00",
+    "portions": "350"
+  },
+  {
+    "name": "Хачапурі по-Аджарськи",
+    "portionPrice": "295,00",
+    "portions": "350"
+  },
+  {
+    "name": "Пампушки з часником",
+    "portionPrice": "60,00",
+    "portions": "100"
+  }
+]

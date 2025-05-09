@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       <header className={styles.header}>
         {" "}
         <Container>
-          <Row>123123</Row>
+          <Row>toplogo</Row>
         </Container>
       </header>
     </>

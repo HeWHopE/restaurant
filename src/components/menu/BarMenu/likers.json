@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Ольмека Бланко",
+    "size": "1 л",
+    "bottlePrice": "₴2500,00",
+    "description": "Olmeca Blanco",
+    "glassPrices": {
+      "50 мл": "₴125,00",
+      "100 мл": "₴250,00"
+    }
+  },
+  {
+    "name": "Ольмека Голд",
+    "size": "1 л",
+    "bottlePrice": "₴2600,00",
+    "description": "Olmeca Gold",
+    "glassPrices": {
+      "50 мл": "₴130,00",
+      "100 мл": "₴260,00"
+    }
+  },
+  {
+    "name": "Бехерівка",
+    "size": "0,5 л",
+    "bottlePrice": "₴950,00",
+    "description": "Becherovka",
+    "glassPrices": {
+      "50 мл": "₴95,00",
+      "100 мл": "₴190,00"
+    }
+  },
+  {
+    "name": "Закарпатський",
+    "size": "0,5 л",
+    "bottlePrice": "₴800,00",
+    "description": "Zakarpatsky",
+    "glassPrices": {
+      "50 мл": "₴80,00",
+      "100 мл": "₴160,00"
+    }
+  },
+  {
+    "name": "Іверіоні 3*",
+    "size": "0,5 л",
+    "bottlePrice": "₴600,00",
+    "description": "Iverioni 3*",
+    "glassPrices": {
+      "50 мл": "₴60,00",
+      "100 мл": "₴120,00"
+    }
+  },
+  {
+    "name": "Еріставі 3*",
+    "size": "0,5 л",
+    "bottlePrice": "₴600,00",
+    "description": "Eristavi 3*",
+    "glassPrices": {
+      "50 мл": "₴60,00",
+      "100 мл": "₴120,00"
+    }
+  },
+  {
+    "name": "Старий Кахеті 5*",
+    "size": "0,5 л",
+    "bottlePrice": "₴900,00",
+    "description": "Staryi Kakheti 5*",
+    "glassPrices": {
+      "50 мл": "₴90,00",
+      "100 мл": "₴180,00"
+    }
+  },
+  {
+    "name": "Сараджишвілі 5*",
+    "size": "0,5 л",
+    "bottlePrice": "₴1100,00",
+    "description": "Sarajishvili 5*",
+    "glassPrices": {
+      "50 мл": "₴110,00",
+      "100 мл": "₴220,00"
+    }
+  },
+  {
+    "name": "Арарат 5*",
+    "size": "0,5 л",
+    "bottlePrice": "₴1100,00",
+    "description": "Ararat 5*",
+    "glassPrices": {
+      "50 мл": "₴110,00",
+      "100 мл": "₴220,00"
+    }
+  },
+  {
+    "name": "Тиса",
+    "size": "0,5 л",
+    "bottlePrice": "₴1600,00",
+    "description": "Tisa",
+    "glassPrices": {
+      "50 мл": "₴160,00",
+      "100 мл": "₴320,00"
+    }
+  },
+  {
+    "name": "Мартель VS",
+    "size": "1 л",
+    "bottlePrice": "₴4000,00",
+    "description": "Martell VS",
+    "glassPrices": {
+      "50 мл": "₴200,00",
+      "100 мл": "₴400,00"
+    }
+  },
+  {
+    "name": "Хенесі VS",
+    "size": "1 л",
+    "bottlePrice": "₴4000,00",
+    "description": "Hennessy VS",
+    "glassPrices": {
+      "50 мл": "₴200,00",
+      "100 мл": "₴400,00"
+    }
+  }
+]

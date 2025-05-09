@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Борщ пісний з квасолею та сухими грибами",
+    "description": "",
+    "portionPrice": "210,00",
+    "portions": "300"
+  },
+  {
+    "name": "Юшка грибна з галушками",
+    "description": "",
+    "portionPrice": "170,00",
+    "portions": "300"
+  },
+  {
+    "name": "Суп овочевий",
+    "description": "",
+    "portionPrice": "150,00",
+    "portions": "300"
+  }
+]

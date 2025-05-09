@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Б-52 (Лікер Кахлуа, лікер Baileys, лікер Кюрасао)",
+    "size": "75 мл",
+    "bottlePrice": "₴280,00",
+    "description": "Liqueur Kahlua, Baileys Liqueur, Curacao Liqueur"
+  },
+  {
+    "name": "Текіла Санрайз (Срібна текіла, апельсиновий сік, гранатовий сироп)",
+    "size": "150 мл",
+    "bottlePrice": "₴250,00",
+    "description": "Silver Tequila, Orange Juice, Grenadine"
+  },
+  {
+    "name": "Мохіто класичний (Ром Bacardi, спрайт, лайм, м’ята, цукор)",
+    "size": "200 мл",
+    "bottlePrice": "₴230,00",
+    "description": "Bacardi Rum, Sprite, Lime, Mint, Sugar"
+  },
+  {
+    "name": "Мохіто голубий (Ром Bacardi, спрайт, лікер Блакитний Кюрасао, лайм, м’ята, цукор)",
+    "size": "225 мл",
+    "bottlePrice": "₴280,00",
+    "description": "Bacardi Rum, Sprite, Blue Curacao Liqueur, Lime, Mint, Sugar"
+  },
+  {
+    "name": "Кровава Мері (Водка Nemirov, томатний сік, спеції)",
+    "size": "150 мл",
+    "bottlePrice": "₴155,00",
+    "description": "Nemirov Vodka, Tomato Juice, Spices"
+  },
+  {
+    "name": "Голуба лагуна (Ром Bacardi, лікер Блакитний Кюрасао, спрайт)",
+    "size": "250 мл",
+    "bottlePrice": "₴280,00",
+    "description": "Bacardi Rum, Blue Curacao Liqueur, Sprite"
+  },
+  {
+    "name": "Піно-колада (Ром Bacardi, лікер Malibu, ананасовий сік, вершки)",
+    "size": "200 мл",
+    "bottlePrice": "₴220,00",
+    "description": "Bacardi Rum, Malibu Liqueur, Pineapple Juice, Cream"
+  },
+  {
+    "name": "Маргарита блакитна (Текіла, лікер Cointreau, лікер Блакитний Кюрасао, лимонний сік)",
+    "size": "150 мл",
+    "bottlePrice": "₴340,00",
+    "description": "Tequila, Cointreau Liqueur, Curacao Liqueur, Lemon Juice"
+  },
+  {
+    "name": "Джин-тонік (Джин Beefeater, тонік Schweppes, лимон)",
+    "size": "150 мл",
+    "bottlePrice": "₴190,00",
+    "description": "Beefeater Gin, Schweppes Tonic, Lemon"
+  },
+  {
+    "name": "Лонг Айленд (Водка, текіла, джин, ром, лимонний сік, пепсі-кола)",
+    "size": "250 мл",
+    "bottlePrice": "₴320,00",
+    "description": "Vodka, Tequila, Gin, Rum, Lemon Juice, Pepsi-Cola"
+  },
+  {
+    "name": "Гляссе (Кава, морозиво, цукор)",
+    "size": "200 мл",
+    "bottlePrice": "₴120,00",
+    "description": "Coffee, Ice Cream, Sugar"
+  },
+  {
+    "name": "Глінтвейн (Червоне сухе вино, апельсин, гвоздика, кориця, мед)",
+    "size": "150 мл",
+    "bottlePrice": "₴135,00",
+    "description": "Dry Red Wine, Orange, Cloves, Cinnamon, Honey"
+  },
+  {
+    "name": "Мохіто безалкогольний (Спрайт, м’ята, лайм, цукор)",
+    "size": "200 мл",
+    "bottlePrice": "₴105,00",
+    "description": "Sprite, Mint, Lime, Sugar"
+  },
+  {
+    "name": "Банановий коктейль (Банан, морозиво, молоко)",
+    "size": "250 мл",
+    "bottlePrice": "₴145,00",
+    "description": "Banana, Ice Cream, Milk"
+  }
+]

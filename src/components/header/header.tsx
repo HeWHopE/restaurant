@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import styles from "./header.module.scss";
 import useWindowSize from "../../hooks/useWindowSize";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import { ChevronDown, ChevronUp } from "lucide-react";
 
@@ -75,13 +75,13 @@ const Header: React.FC = () => {
               </div>
 
               <nav className=" sm:flex gap-5">
-                <a
-                  href="/"
+                <Link
+                  to="/"
                   className={`${styles.navitem} ${isActive("/") ? styles.active : ""}`}
                 >
                   ГОЛОВНА
-                </a>
-                <a
+                </Link>
+                <div
                   className={`${styles.navitem} ${isActive("/menu") ? styles.active : ""}`}
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
@@ -91,7 +91,7 @@ const Header: React.FC = () => {
                   <AnimatePresence>
                     {isMenuOpen && (
                       <motion.div
-                        className="absolute left-0 top-full mt-2 w-48 bg-gray-900 text-white  rounded-lg shadow-lg"
+                        className="absolute left-0 top-full mt-2 w-48 bg-[#1c1c1c] text-white  rounded-lg shadow-lg"
                         initial={{ opacity: 0, y: -10 }} // Start slightly above with 0 opacity
                         animate={{ opacity: 1, y: 0 }} // Animate to full opacity and original position
                         exit={{ opacity: 0, y: -10 }} // Fade out and move slightly up
@@ -99,58 +99,58 @@ const Header: React.FC = () => {
                         onMouseEnter={handleMouseEnter} // Keep open if hovering the dropdown
                         onMouseLeave={handleMouseLeave} // Close when leaving the dropdown
                       >
-                        <ul className="flex flex-col rounded-lg">
-                          <li className="px-4 py-2 ">
-                            <a href="/menu-bar">Menu Bar</a>
+                        <ul className="flex flex-col rounded-lg ">
+                          <li className="px-4 py-2 hover:text-amber-300 ">
+                            <Link to="/menu">Menu Bar</Link>
                           </li>
-                          <li className="px-4 py-2  rounded-lg">
-                            <a href="/preskurant">Preskurant</a>
+                          <li className="px-4 py-2  rounded-lg hover:text-amber-300">
+                            <Link to="/preskurant">Preskurant</Link>
                           </li>
                         </ul>
                       </motion.div>
                     )}
                   </AnimatePresence>
-                </a>
+                </div>
 
-                <a
-                  href="/poslygi"
+                <Link
+                  to="/bankety"
                   className={`${styles.navitem} ${isActive("/poslygi") ? styles.active : ""}`}
                 >
                   БАНКЕТИ
-                </a>
-                <a
-                  href="/dostavka"
+                </Link>
+                <Link
+                  to="/dostavka"
                   className={`${styles.navitem} ${isActive("/dostavka") ? styles.active : ""}`}
                 >
                   ДОСТАВКА
-                </a>
-                <a
-                  href="/keyteryng"
+                </Link>
+                <Link
+                  to="/keyteryng"
                   className={`${styles.navitem} ${isActive("/keyteryng") ? styles.active : ""}`}
                 >
                   КЕЙТЕРИНГ
-                </a>
-                <a
-                  href="/about"
+                </Link>
+                <Link
+                  to="/about"
                   className={`${styles.navitem} ${isActive("/contacts") ? styles.active : ""}`}
                 >
                   ПРО НАС
-                </a>
-                <a
-                  href="/contacts"
+                </Link>
+                <Link
+                  to="/contacts"
                   className={`${styles.navitem} ${isActive("/contacts") ? styles.active : ""}`}
                 >
                   КОНТАКТИ
-                </a>
+                </Link>
 
-                <a className={`${styles.navitem}`}>
+                <div className={`${styles.navitem}`}>
                   <img
                     src="/ua-flag.png"
                     alt="UA Flag"
                     className="inline-block w-4 h-[11px] mr-2 align-middle "
                   />
                   UA
-                </a>
+                </div>
               </nav>
             </div>
           ) : (
@@ -217,13 +217,13 @@ const Header: React.FC = () => {
               >
                 <ul className="flex flex-col gap-6 pr-8 pl-8">
                   <li className="justify-start flex">
-                    <a
-                      href="/"
+                    <Link
+                      to="/"
                       onClick={handleLinkClick}
                       className="text-white"
                     >
                       ГОЛОВНА
-                    </a>
+                    </Link>
                   </li>
                   <li className="justify-between flex w-[90%]">
                     <div className="relative">
@@ -248,22 +248,22 @@ const Header: React.FC = () => {
                             className="mt-2 rounded-lg"
                           >
                             <li className="justify-start flex rounded-lg">
-                              <a
-                                href="/menu-bar"
+                              <Link
+                                to="/menu"
                                 onClick={handleLinkClick}
                                 className="block px-4 py-2  text-white"
                               >
                                 Меню ресторану
-                              </a>
+                              </Link>
                             </li>
                             <li className="justify-start flex rounded-lg">
-                              <a
-                                href="/preskurant"
+                              <Link
+                                to="/preskurant"
                                 onClick={handleLinkClick}
                                 className="block px-4 py-2  text-white"
                               >
                                 Прейскурант бару
-                              </a>
+                              </Link>
                             </li>
                           </motion.ul>
                         )}
@@ -271,40 +271,40 @@ const Header: React.FC = () => {
                     </div>
                   </li>
                   <li className="justify-start flex">
-                    <a
-                      href="/poslygi"
+                    <Link
+                      to="/poslygi"
                       onClick={handleLinkClick}
                       className="text-white"
                     >
                       ПОСЛУГИ
-                    </a>
+                    </Link>
                   </li>
                   <li className="justify-start flex">
-                    <a
-                      href="/dostavka"
+                    <Link
+                      to="/dostavka"
                       onClick={handleLinkClick}
                       className="text-white"
                     >
                       ДОСТАВКА
-                    </a>
+                    </Link>
                   </li>
                   <li className="justify-start flex">
-                    <a
-                      href="/keyteryng"
+                    <Link
+                      to="/keyteryng"
                       onClick={handleLinkClick}
                       className="text-white"
                     >
                       КЕЙТЕРИНГ
-                    </a>
+                    </Link>
                   </li>
                   <li className="justify-start flex">
-                    <a
-                      href="/contacts"
+                    <Link
+                      to="/contacts"
                       onClick={handleLinkClick}
                       className="text-white"
                     >
                       КОНТАКТИ
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </motion.div>

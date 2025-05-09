@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Асорті з трьох видів м’яса під винним соусом",
+    "description": "Assorted three types of meat in wine sauce",
+    "portionPrice": "1600,00",
+    "portions": "700/200"
+  },
+  {
+    "name": "Асорті рулетів по-переясливські",
+    "description": "Assorted roulades Pereaślawski-style",
+    "portionPrice": "1500,00",
+    "portions": "750/250/100"
+  },
+  {
+    "name": "Асорті пташиних грудок",
+    "description": "Assorted poultry breasts",
+    "portionPrice": "1265,00",
+    "portions": "600/50/35"
+  },
+  {
+    "name": "Свинні реберця під соусом Барбекю",
+    "description": "Pork ribs in BBQ sauce",
+    "portionPrice": "1100,00",
+    "portions": "600/50/15"
+  },
+  {
+    "name": "Телятина по-царськи",
+    "description": "Royal-style veal",
+    "portionPrice": "385,00",
+    "portions": "280"
+  },
+  {
+    "name": "М’ясо по-французськи",
+    "description": "French-style meat",
+    "portionPrice": "310,00",
+    "portions": "250"
+  },
+  {
+    "name": "Куряче філе з ананасом під сиром Рамзес",
+    "description": "Chicken fillet with pineapple under Ramses cheese",
+    "portionPrice": "295,00",
+    "portions": "300"
+  },
+  {
+    "name": "Курячі рулетики з виноградом та моцарелою під соусом Пармезан",
+    "description": "Chicken roulades with grapes and mozzarella under Parmesan sauce",
+    "portionPrice": "485,00",
+    "portions": "250"
+  },
+  {
+    "name": "Фарширована качка",
+    "description": "Stuffed duck with apples, oranges, and dried apricots",
+    "portionPrice": "130,00",
+    "portions": "100"
+  },
+  {
+    "name": "Рулетик з телячої вирізки з шпінатом і бринзою під гірчичним соусом",
+    "description": "Rolled veal fillet with spinach and brine cheese under mustard sauce",
+    "portionPrice": "450,00",
+    "portions": "230/70"
+  },
+  {
+    "name": "Котлета куряча",
+    "description": "Chicken cutlet",
+    "portionPrice": "105,00",
+    "portions": "100/12"
+  },
+  {
+    "name": "Котлета асорті",
+    "description": "Assorted cutlets",
+    "portionPrice": "108,00",
+    "portions": "100/12"
+  },
+  {
+    "name": "Печеня по-домашньому з м’ясом та грибами",
+    "description": "Homemade stew with meat and mushrooms",
+    "portionPrice": "295,00",
+    "portions": "350/40"
+  },
+  {
+    "name": "Печінка теляча в яблучному соусі",
+    "description": "Veal liver in apple sauce",
+    "portionPrice": "385,00",
+    "portions": "300"
+  },
+  {
+    "name": "Рулька свинна в пиві",
+    "description": "Pork knuckle in beer",
+    "portionPrice": "820,00",
+    "portions": "1 шт"
+  },
+  {
+    "name": "Качина грудинка запечена з яблуком під малиновим соусом",
+    "description": "Roast duck breast with apple under raspberry sauce",
+    "portionPrice": "525,00",
+    "portions": "160/150/50"
+  }
+]

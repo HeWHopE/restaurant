@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Пивна тарілка асорті",
+    "description": "вухо свиняче копчене, мисливськи ковбаски, картопля фрі, сухарики з бородинського хліба, сир Косичка, соус Тар-Тар, соус Барбекю",
+    "portionPrice": "495,00",
+    "portions": "450/60"
+  },
+  {
+    "name": "Закуска “Козацька”",
+    "description": "",
+    "portionPrice": "165,00",
+    "portions": "100/50/40"
+  },
+  {
+    "name": "Закуска “М’яско по-домашньому”",
+    "description": "ковбаса домашня, буженина, паштет печінковий, курячий рулет, соус",
+    "portionPrice": "495,00",
+    "portions": "300/50/40"
+  },
+  {
+    "name": "Ковбаса домашня",
+    "description": "",
+    "portionPrice": "145,00",
+    "portions": "100"
+  },
+  {
+    "name": "Буженина по-домашньому",
+    "description": "",
+    "portionPrice": "145,00",
+    "portions": "100"
+  },
+  {
+    "name": "Баструма",
+    "description": "",
+    "portionPrice": "110,00",
+    "portions": "50"
+  },
+  {
+    "name": "Паштет печінковий",
+    "description": "",
+    "portionPrice": "135,00",
+    "portions": "100"
+  },
+  {
+    "name": "Рулет курячий",
+    "description": "",
+    "portionPrice": "135,00",
+    "portions": "100"
+  },
+  {
+    "name": "Язик відварний з хроном",
+    "description": "",
+    "portionPrice": "240,00",
+    "portions": "100/50"
+  },
+  {
+    "name": "Карпаччо з телятини",
+    "description": "",
+    "portionPrice": "415,00",
+    "portions": "220"
+  },
+  {
+    "name": "Асорті з домашнього сальця з зеленою цибулею, гірчицею та часниковими грінками",
+    "description": "",
+    "portionPrice": "350,00",
+    "portions": "150/40/70"
+  },
+  {
+    "name": "Потапці з салом",
+    "description": "",
+    "portionPrice": "148,00",
+    "portions": "200"
+  },
+  {
+    "name": "Форшмак",
+    "description": "оселедець, сирок плавленний, яйце куряче, яблуко, цибуля, масло вершкове, зелень",
+    "portionPrice": "230,00",
+    "portions": "200/100"
+  },
+  {
+    "name": "Сьомга слабосолена",
+    "description": "",
+    "portionPrice": "330,00",
+    "portions": "100"
+  },
+  {
+    "name": "Оселедець під горілочку",
+    "description": "",
+    "portionPrice": "165,00",
+    "portions": "100/50"
+  },
+  {
+    "name": "Пивні сухарики з часниковим соусом",
+    "description": "",
+    "portionPrice": "80,00",
+    "portions": "150/40"
+  },
+  {
+    "name": "Асорті сирне",
+    "description": "сири Пармезан, Камамбер, Моцарела, Дор Блю, виноград, грецькі горіхи, яблуко",
+    "portionPrice": "630,00",
+    "portions": "250"
+  },
+  {
+    "name": "Брускета з креветкою",
+    "description": "сир Фета, томати, базилік, часник, креветки",
+    "portionPrice": "330,00",
+    "portions": "250"
+  },
+  {
+    "name": "Брускета з гуакамоле",
+    "description": "цибуля кримська, авокадо, томати свіжі, Табаско, зелень, лимон",
+    "portionPrice": "330,00",
+    "portions": "280"
+  },
+  {
+    "name": "Брускета з тартаром",
+    "description": "лосось свіжий, цибуля кримська, зелень, кетчуп, Табаско, вершки, руккола, коньяк",
+    "portionPrice": "350,00",
+    "portions": "250"
+  },
+  {
+    "name": "Бринза",
+    "description": "",
+    "portionPrice": "80,00",
+    "portions": "50"
+  },
+  {
+    "name": "Білі гриби мариновані",
+    "description": "",
+    "portionPrice": "175,00",
+    "portions": "100"
+  },
+  {
+    "name": "Асорті овочеве",
+    "description": "огірок, помідор, перець болгарський, зелень",
+    "portionPrice": "270,00",
+    "portions": "300"
+  },
+  {
+    "name": "Асорті з квашених овочів",
+    "description": "",
+    "portionPrice": "390,00",
+    "portions": "600"
+  },
+  {
+    "name": "Помідори квашені",
+    "description": "",
+    "portionPrice": "70,00",
+    "portions": "100"
+  },
+  {
+    "name": "Огірки квашені",
+    "description": "",
+    "portionPrice": "70,00",
+    "portions": "100"
+  },
+  {
+    "name": "Часник маринований",
+    "description": "",
+    "portionPrice": "110,00",
+    "portions": "100"
+  },
+  {
+    "name": "Зелень асорті",
+    "description": "",
+    "portionPrice": "140,00",
+    "portions": "100"
+  },
+  {
+    "name": "Маслини",
+    "description": "",
+    "portionPrice": "80,00",
+    "portions": "50"
+  },
+  {
+    "name": "Оливки",
+    "description": "",
+    "portionPrice": "80,00",
+    "portions": "50"
+  },
+  {
+    "name": "Лимон",
+    "description": "",
+    "portionPrice": "50,00",
+    "portions": "50"
+  },
+  {
+    "name": "Масло вершкове",
+    "description": "",
+    "portionPrice": "50,00",
+    "portions": "40"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Борщ український фірмовий, з салом та пампушками",
+    "portionPrice": "220,00",
+    "portions": "330/100/20/40"
+  },
+  {
+    "name": "Солянка м’ясна",
+    "portionPrice": "230,00",
+    "portions": "300/30"
+  },
+  {
+    "name": "Бульйон курячий з перепелиним яйцем",
+    "portionPrice": "160,00",
+    "portions": "300"
+  },
+  {
+    "name": "Суп з курячими потрошками",
+    "portionPrice": "160,00",
+    "portions": "300"
+  },
+  {
+    "name": "Уха рибна для пана",
+    "portionPrice": "240,00",
+    "portions": "300"
+  },
+  {
+    "name": "Юшка з сьомги",
+    "portionPrice": "280,00",
+    "portions": "300"
+  },
+  {
+    "name": "Супчик сирний з лососем",
+    "portionPrice": "250,00",
+    "portions": "300/50"
+  },
+  {
+    "name": "Юшка грибна",
+    "portionPrice": "195,00",
+    "portions": "300"
+  },
+  {
+    "name": "Суп-пюре грибний",
+    "portionPrice": "175,00",
+    "portions": "330"
+  },
+  {
+    "name": "Бограч",
+    "portionPrice": "205,00",
+    "portions": "300"
+  }
+]

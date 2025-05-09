@@ -1,0 +1,16 @@
+.seasidetmsButton {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.seasidetmsButton:hover {
+  background-color: #c0392b;
+}

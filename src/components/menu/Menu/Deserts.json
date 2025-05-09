@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Морозиво з сиропом в асортименті",
+    "description": "",
+    "portionPrice": "220,00",
+    "portions": "150/20"
+  },
+  {
+    "name": "Сирники",
+    "description": "",
+    "portionPrice": "210,00",
+    "portions": "200/50"
+  },
+  {
+    "name": "Штрудель яблучний",
+    "description": "",
+    "portionPrice": "180,00",
+    "portions": "140/50/30"
+  },
+  {
+    "name": "Млинці з сиром і родзинками зі сметаною",
+    "description": "",
+    "portionPrice": "230,00",
+    "portions": "250/30"
+  },
+  {
+    "name": "Млинці з маком, родзинками і медом",
+    "description": "",
+    "portionPrice": "240,00",
+    "portions": "180/50"
+  },
+  {
+    "name": "Фруктове асорті",
+    "description": "банан, апельсин, ківі, ананас, виноград, яблуко",
+    "portionPrice": "330,00",
+    "portions": "500"
+  },
+  {
+    "name": "Салат фруктовий з морозивом",
+    "description": "",
+    "portionPrice": "270,00",
+    "portions": "300"
+  },
+  {
+    "name": "Фрукти",
+    "description": "груша, яблуко, ківі, апельсин, виноград, грейпфрут, банан",
+    "portionPrice": "80,00",
+    "portions": "100"
+  },
+  {
+    "name": "Яблоко запечене з медом",
+    "description": "",
+    "portionPrice": "70,00",
+    "portions": "200"
+  },
+  {
+    "name": "Груша запечена з сиром Камамбер та ягідним соусом",
+    "description": "",
+    "portionPrice": "220,00",
+    "portions": "200"
+  }
+]

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./HotDrinksList.module.scss";
-import teaData from "../../menu/tea.json";
+import teaData from "../../menu/BarMenu/tea.json";
 export interface HotDrinkItem {
   name: string;
   english: string;
