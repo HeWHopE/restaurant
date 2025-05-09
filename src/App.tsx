@@ -11,7 +11,7 @@ import Bankets from "./pages/BanketsPage/Bankets";
 import ComingSoonBanner from "./pages/ComingSoon/ComingSoon";
 import Contact from "./pages/Contact/contact";
 import ScrollToTop from "./hooks/useScrollback";
-
+import { SpeedInsights } from "@vercel/speed-insights/next";
 const App: React.FC = () => {
   return (
     <Router>
@@ -29,6 +29,7 @@ const App: React.FC = () => {
         <Route path="/about" element={<ComingSoonBanner />} />
       </Routes>
       <Footer /> <ToastContainer />
+      <SpeedInsights />
     </Router>
   );
 };
