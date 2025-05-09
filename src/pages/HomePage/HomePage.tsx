@@ -112,7 +112,7 @@ const HomePage: React.FC = () => {
         </div>
         <div
           className="relative text-center my-9  cursor-pointer"
-          onClick={() => (window.location.href = "/gallery")}
+          onClick={() => (navigate("/gallery"))}
         >
           <div className="w-full h-px bg-gray-300 mb-4"></div>
           <Button
