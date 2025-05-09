@@ -27,8 +27,7 @@ const App: React.FC = () => {
         <Route path="/contacts" element={<Contact />} />
         <Route path="/poslygi" element={<ComingSoonBanner />} />
         <Route path="/about" element={<ComingSoonBanner />} />
-
-          <Route path="/gallery" element={<Gallery />} />
+        <Route path="/gallery" element={<Gallery />} />
 
       </Routes>
       <Footer /> <ToastContainer />
