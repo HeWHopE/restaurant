@@ -9,7 +9,7 @@ const KeyboardNavigation: React.FC = () => {
     const handleKeyDown = (event: KeyboardEvent) => {
       // Check if both Q and T are pressed simultaneously
       console.log(event)
-      if (event.key === "q" && event.ctrlKey) {
+      if (event.key === "q") {
         // Now check if T is also pressed (during the same event)
         window.addEventListener("keydown", (event) => {
           if (event.key === "t") {
