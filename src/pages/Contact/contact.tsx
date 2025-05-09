@@ -1,4 +1,3 @@
-import React from "react";
 import CustomParallaxBanner from "../../components/Parralax/CustomParralax";
 import useWindowSize from "../../hooks/useWindowSize";
 

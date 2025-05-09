@@ -36,7 +36,7 @@ type FormValues = {
 type ReservationFormProps = React.HTMLAttributes<HTMLFormElement>;
 
 const ReservationForm = forwardRef<HTMLFormElement, ReservationFormProps>(
-  (props, ref) => {
+  (props: any, ref) => {
     const {
       register,
       handleSubmit,
@@ -45,7 +45,7 @@ const ReservationForm = forwardRef<HTMLFormElement, ReservationFormProps>(
     } = useForm({
       resolver: yupResolver(schema),
     });
-
+    console.log(props);
     // Submit handler for the form
     const onSubmit: SubmitHandler<FormValues> = async (data) => {
       try {

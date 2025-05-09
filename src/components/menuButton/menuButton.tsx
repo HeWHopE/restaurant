@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./menuButton.module.scss"; // Adjust the path as needed
 import { Book } from "lucide-react";
 

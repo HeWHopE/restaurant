@@ -1,6 +1,5 @@
 import React from "react";
-import { Book } from "lucide-react";
-import styles from "./MenuBar.module.scss";
+
 import WineList from "../../components/lists/WineList/WineList";
 import ListBarMenu from "../../components/lists/mainList/List";
 import ListKokteilsMenu from "../../components/lists/kokteilList/kokteilList";
