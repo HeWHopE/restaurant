@@ -12,6 +12,7 @@ import ComingSoonBanner from "./pages/ComingSoon/ComingSoon";
 import Contact from "./pages/Contact/contact";
 import ScrollToTop from "./hooks/useScrollback";
 import Gallery from "./pages/Gallery/Gallery";
+import Dashboard from "./pages/Dasboard/Dashboard";
 const App: React.FC = () => {
   return (
     <Router>
@@ -28,7 +29,7 @@ const App: React.FC = () => {
         <Route path="/poslygi" element={<ComingSoonBanner />} />
         <Route path="/about" element={<ComingSoonBanner />} />
         <Route path="/gallery" element={<Gallery />} />
-
+       <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
       <Footer /> <ToastContainer />
 

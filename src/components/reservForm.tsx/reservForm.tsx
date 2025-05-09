@@ -4,6 +4,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import emailjs from "emailjs-com";
 import { toast } from "react-toastify";
+import { supabase } from '../../../supabaseClient';
 
 const schema = yup.object({
   name: yup.string().required("Ваше Ім'я є обов'язковим"),
@@ -37,6 +38,7 @@ type ReservationFormProps = React.HTMLAttributes<HTMLFormElement>;
 
 const ReservationForm = forwardRef<HTMLFormElement, ReservationFormProps>(
   (props: any, ref) => {
+
     const {
       register,
       handleSubmit,
@@ -56,13 +58,31 @@ const ReservationForm = forwardRef<HTMLFormElement, ReservationFormProps>(
           data,
           "tE13dfmPRhzhec7Vd"
         );
-        reset();
+        // reset();
         toast.success("Резервація успішно надіслана");
+
+    sendToSupabase(data)
+        
       } catch (error) {
         console.error("Помилка надсилання:", error);
         toast.error("Помилка надсилання");
       }
     };
+
+
+ const sendToSupabase = async (values: FormValues) => {
+  const { data, error } = await supabase
+    .from('reservations') // Replace with your table name
+    .insert([values]);
+
+  if (error) {
+    console.error('Error inserting data:', error.message);
+    return { success: false, error };
+  }
+
+  console.log('Data inserted successfully:', data);
+  return { success: true, data };
+};
 
     return (
       <form
