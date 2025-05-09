@@ -99,7 +99,7 @@ const HomePage: React.FC = () => {
             src="/preview2.JPG"
             alt="Gallery Image 2"
           />
-          <img
+          {/* <img
             className="w-full object-cover rounded-lg shadow-lg max-w-[90vw] sm:max-w-[688px]  lg:max-w-[461px]  xl:max-w-[560px] xl:max-h-[800px]"
             src="/preview3.JPG"
             alt="Gallery Image 3"
@@ -108,7 +108,7 @@ const HomePage: React.FC = () => {
             className="w-full object-cover rounded-lg shadow-lg max-w-[90vw] sm:max-w-[688px]  lg:max-w-[461px]  xl:max-w-[560px] xl:max-h-[800px]"
             src="/preview4.JPG"
             alt="Gallery Image 4"
-          />
+          /> */}
         </div>
         <div
           className="relative text-center my-9  cursor-pointer"

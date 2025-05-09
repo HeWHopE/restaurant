@@ -11,6 +11,7 @@ import Bankets from "./pages/BanketsPage/Bankets";
 import ComingSoonBanner from "./pages/ComingSoon/ComingSoon";
 import Contact from "./pages/Contact/contact";
 import ScrollToTop from "./hooks/useScrollback";
+import Gallery from "./pages/Gallery/Gallery";
 const App: React.FC = () => {
   return (
     <Router>
@@ -26,6 +27,9 @@ const App: React.FC = () => {
         <Route path="/contacts" element={<Contact />} />
         <Route path="/poslygi" element={<ComingSoonBanner />} />
         <Route path="/about" element={<ComingSoonBanner />} />
+
+          <Route path="/gallery" element={<Gallery />} />
+
       </Routes>
       <Footer /> <ToastContainer />
 
