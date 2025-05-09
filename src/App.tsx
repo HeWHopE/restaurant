@@ -13,10 +13,11 @@ import Contact from "./pages/Contact/contact";
 import ScrollToTop from "./hooks/useScrollback";
 import Gallery from "./pages/Gallery/Gallery";
 import Dashboard from "./pages/Dasboard/Dashboard";
+import KeyboardNavigation from "./components/script/bind";
 const App: React.FC = () => {
   return (
     <Router>
-      <Header />
+      <Header />      <KeyboardNavigation />
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
