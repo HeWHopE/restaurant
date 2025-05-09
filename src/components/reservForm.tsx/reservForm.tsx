@@ -58,7 +58,7 @@ const ReservationForm = forwardRef<HTMLFormElement, ReservationFormProps>(
           data,
           "tE13dfmPRhzhec7Vd"
         );
-        // reset();
+        reset();
         toast.success("Резервація успішно надіслана");
 
     sendToSupabase(data)

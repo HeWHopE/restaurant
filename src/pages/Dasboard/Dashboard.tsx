@@ -6,6 +6,7 @@ import CustomParallaxBanner from "../../components/Parralax/CustomParralax";
 
 
 type FormValues = {
+    createdAt: Date
   name: string;
   phone: string;
   date: string;
@@ -82,26 +83,29 @@ const {isMobile} = useWindowSize()
         <div>
           <table className="min-w-full border-collapse border border-gray-200">
             <thead>
-              <tr>
-                <th className="border border-gray-200 px-4 py-2">Ім'я</th>
-                <th className="border border-gray-200 px-4 py-2">Тел</th>
-                <th className="border border-gray-200 px-4 py-2">Дата</th>
-                <th className="border border-gray-200 px-4 py-2">Чам</th>
-                <th className="border border-gray-200 px-4 py-2">К-сть людей</th>
-                <th className="border border-gray-200 px-4 py-2">Опція</th>
-                <th className="border border-gray-200 px-4 py-2">Нотатки</th>
+              <tr>  <th className="border border-gray-200 px-4 py-2 text-center">Дата створення</th>
+                <th className="border border-gray-200 px-4 py-2 text-center">Ім'я</th>
+                <th className="border border-gray-200 px-4 py-2 text-center">Тел</th>
+                <th className="border border-gray-200 px-4 py-2 text-center">Дата</th>
+                <th className="border border-gray-200 px-4 py-2 text-center">Чам</th>
+                <th className="border border-gray-200 px-4 py-2 text-center">К-сть людей</th>
+                <th className="border border-gray-200 px-4 py-2 text-center">Опція</th>
+                <th className="border border-gray-200 px-4 py-2 text-center">Нотатки</th>
               </tr>
             </thead>
             <tbody>
               {data.map((item, index) => (
-                <tr key={index}>
-                  <td className="border border-gray-200 px-4 py-2">{item.name}</td>
-                  <td className="border border-gray-200 px-4 py-2">{item.phone}</td>
-                  <td className="border border-gray-200 px-4 py-2">{item.date}</td>
-                  <td className="border border-gray-200 px-4 py-2">{item.time}</td>
-                  <td className="border border-gray-200 px-4 py-2">{item.people}</td>
-                  <td className="border border-gray-200 px-4 py-2">{item.option}</td>
-                  <td className="border border-gray-200 px-4 py-2">{item.notes || "N/A"}</td>
+                <tr key={index}>          
+                 <td className="border border-gray-200 px-4 py-2 text-center">{item?.date.toString()}</td>
+                  <td className="border border-gray-200 px-4 py-2 text-center">{item.name}</td>
+                  <td className="border border-gray-200 px-4 py-2 text-center">{item.phone}</td>
+                  <td className="border border-gray-200 px-4 py-2 text-center">{item.date}</td>
+                  <td className="border border-gray-200 px-4 py-2 text-center">{item.time}</td>
+                  <td className="border border-gray-200 px-4 py-2 text-center">{item.people}</td>
+                  <td className="border border-gray-200 px-4 py-2 text-center">{item.option}</td>
+                  <td className="border border-gray-200 px-4 py-2text-center">{item.notes || "N/A"}</td>  
+                       
+
                 </tr>
               ))}
             </tbody>
